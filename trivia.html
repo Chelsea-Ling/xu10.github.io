@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Trivia</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="grid-container">
+        <header class="header">
+            <h1>My Personal Website</h1>
+        </header>
+
+        <nav class="menu-bar">
+            <a href="index.html">HOME</a> |
+            <a href="portfolio.html">PORTFOLIO</a> |
+            <a href="trivia.html">TRIVIA</a>
+        </nav>
+
+        <aside class="left-sidebar">
+            <h3>Useful Links</h3>
+            <ul>
+                <li><a href="https://www.w3schools.com/" target="_blank" rel="noopener noreferrer">W3Schools</a></li>
+                <li><a href="https://developer.mozilla.org/en-US/" target="_blank" rel="noopener noreferrer">MDN Web
+                        Docs</a></li>
+                <li><a href="https://www.freecodecamp.org/" target="_blank" rel="noopener noreferrer">freeCodeCamp</a>
+                </li>
+                <li><a href="https://github.com/" target="_blank" rel="noopener noreferrer">GitHub</a></li>
+            </ul>
+        </aside>
+
+        <main class="content">
+            <h2>Trivia: BMI Calculator</h2>
+            <p>Enter your height and weight below to calculate your Body Mass Index (BMI).</p>
+            <div class="bmi-calculator">
+                <label for="height">Height (cm):</label>
+                <input type="number" id="height" placeholder="e.g., 170">
+
+                <label for="weight">Weight (kg):</label>
+                <input type="number" id="weight" placeholder="e.g., 65">
+
+                <button id="calculateBtn">Calculate BMI</button>
+
+                <div id="result">Your result will be shown here.</div>
+            </div>
+        </main>
+
+        <aside class="right-sidebar">
+            <h3>Contact Me</h3>
+            <form>
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="name" required>
+
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required>
+
+                <label for="message">Message:</label>
+                <textarea id="message" name="message" rows="4" required></textarea>
+
+                <div class="form-buttons">
+                    <button type="submit">Submit</button>
+                    <button type="reset">Clear</button>
+                </div>
+            </form>
+        </aside>
+
+        <footer class="footer">
+            <p>&copy; Created July 2025 | <a href="#">Social Media</a></p>
+        </footer>
+    </div>
+    <script src="script.js"></script>
+</body>
+
+</html>

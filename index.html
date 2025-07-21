@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Homepage</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="grid-container">
+        <header class="header">
+            <h1>My Personal Website</h1>
+        </header>
+
+        <nav class="menu-bar">
+            <a href="index.html">HOME</a> |
+            <a href="portfolio.html">PORTFOLIO</a> |
+            <a href="trivia.html">TRIVIA</a>
+        </nav>
+
+        <aside class="left-sidebar">
+            <h3>Useful Links</h3>
+            <ul>
+                <li><a href="https://www.w3schools.com/" target="_blank" rel="noopener noreferrer">W3Schools</a></li>
+                <li><a href="https://developer.mozilla.org/en-US/" target="_blank" rel="noopener noreferrer">MDN Web
+                        Docs</a></li>
+                <li><a href="https://www.freecodecamp.org/" target="_blank" rel="noopener noreferrer">freeCodeCamp</a>
+                </li>
+                <li><a href="https://github.com/" target="_blank" rel="noopener noreferrer">GitHub</a></li>
+            </ul>
+        </aside>
+
+        <main class="content">
+            <h2>Commitment to Social Responsibility</h2>
+            <p>
+                I am deeply committed to social responsibility and passionate about public welfare. I have actively
+                participated in nearly 100 on- and off-campus volunteer activities, accumulating almost 600 hours of
+                service, which earned me the title of "Outstanding Youth Volunteer" at the university level. My
+                dedication extends to educational support, as I was twice selected for teaching missions in remote
+                areas: Minhe in Qinghai province and Sanjiazi Village in Liaoning. During my holidays, I also joined the
+                "Green Fire Program" to teach middle school students in underprivileged regions, an experience that was
+                widely recognized and affirmed.
+            </p>
+            <p>
+                Beyond being a volunteer, I took on a leadership role as the President of my college's Youth Volunteer
+                Association. In this position, I planned and launched numerous unique volunteer projects, focused on
+                leading and cultivating a new generation of volunteers to promote the spirit of service. Since I took
+                office, our association has established four new service teams, organized over 100 activities of various
+                scales, and engaged nearly 5,000 student participants.
+            </p>
+
+            <!-- Make sure '1.jpg' is in the same folder as this HTML file -->
+            <img src="1.jpg" alt="A photo from my volunteer activities"
+                style="width: 100%; max-width: 600px; margin-top: 20px; border-radius: 5px;">
+
+        </main>
+
+        <aside class="right-sidebar">
+            <h3>Contact Me</h3>
+            <form>
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="name" required>
+
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required>
+
+                <label for="message">Message:</label>
+                <textarea id="message" name="message" rows="4" required></textarea>
+
+                <div class="form-buttons">
+                    <button type="submit">Submit</button>
+                    <button type="reset">Clear</button>
+                </div>
+            </form>
+        </aside>
+
+        <footer class="footer">
+            <p>&copy; Created July 2025 | <a href="#">Social Media</a></p>
+        </footer>
+    </div>
+</body>
+
+</html>
